@@ -8,7 +8,7 @@
 */
 
 main {
-    padding-bottom: 50px; /* Adjust the value to the footer's height */
+    padding-bottom: 50px; 
 }
 
 body, h1, h2, h3, ul {
@@ -97,5 +97,5 @@ footer {
 }
 
 article:last-child {
-    margin-bottom: 100px; /* Adjust the value to the footer's height plus some extra space */
+    margin-bottom: 100px; 
 }
