@@ -1,0 +1,101 @@
+/*
+    Name: Jonayet Lavin
+    CS 132 Spring 2024
+    Date: April 8th, 2024
+    This is the styles.css page for the Beyblade fansite. It imports the Merriweather font and 
+    defines styling for the website, docusing on a clean layout with a consistent color scheme, 
+    and aims for accessibility.
+*/
+
+main {
+    padding-bottom: 50px; /* Adjust the value to the footer's height */
+}
+
+body, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: #e9dfdf;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul, ul {
+    list-style-type: none;
+}
+
+nav ul li, .beyblade-container, h2, h3, p, ul li {
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a, footer {
+    color: #fff;
+    text-decoration: none;
+}
+
+main, article {
+    padding: 20px;
+    text-align: center;
+}
+
+img, .beyblade-image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+.beyblade-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.beyblade, .box-image {
+    margin: 10px;
+}
+
+.box-image {
+    max-width: 100px;
+}
+
+.beyblade-image {
+    max-width: 200px;
+}
+
+article {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article:last-child {
+    margin-bottom: 100px; /* Adjust the value to the footer's height plus some extra space */
+}
