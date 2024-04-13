@@ -32,7 +32,7 @@ nav ul, ul {
     list-style-type: none;
 }
 
-nav ul li, .beyblade-container, h2, h3, p, ul li {
+nav ul li, h2, h3, p, ul li {
     text-align: left;
 }
 
@@ -47,7 +47,7 @@ nav ul li a, footer {
 }
 
 main, article {
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
