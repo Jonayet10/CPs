@@ -58,12 +58,6 @@ img, .beyblade-image {
     margin: 20px auto; 
 }
 
-.beyblade-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-}
-
 .beyblade, .box-image {
     margin: 10px;
 }
