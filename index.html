@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+  Author: Jonayet Lavin
+  CS 132 Spring 2024
+  Date: April 27th, 2024
+
+  This is the index.html of my Metal Fusion Beyblade Rating website. It includes sections for
+  selecting a color theme, entering a user's name, and a Beyblade gallery for displaying and voting
+  on different Beyblades.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Fusion Beyblade Rating Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Metal Fusion Beyblade Rating</h1>
+    </header>
+    <main> 
+        <section class="flex-container">
+            <label for="colorSelect">Select a color theme:</label>
+            <select id="colorSelect">
+                <option value="default">Default</option>
+                <option value="dark">Dark</option>
+            </select>
+
+            <label for="user">Enter Name:</label>
+            <input type="text" id="user" placeholder="Enter your name">
+        </section>
+        <div id="greeting"></div>
+        <section id="beybladeGallery" class="flex-container">
+            <h2>Beyblade Gallery</h2>
+            <div id="beyblades">
+                <!--
+                    Image source: Pinterest, Jesus Avila
+                    https://www.pinterest.es/pin/storm-pegasus--25966135343829640/ 
+                -->
+                <!--
+                    Image source: Pinterest, Aaron Watts
+                    https://www.pinterest.com/pin/675399275355728465/
+                -->
+
+                <!--
+                    Image source: Pinterest, Alex WE3ED
+                    https://www.pinterest.com/pin/rock-leone-145wb--845832373785930252/ 
+                -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Images are cited in the page source. &copy; 2024</p>
+    </footer>
+</body>
+</html>

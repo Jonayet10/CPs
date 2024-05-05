@@ -1,0 +1,78 @@
+/**
+ * Author: Jonayet Lavin
+ * CS 132 Spring 2024
+ * Date: April 27th, 2024
+ *
+ * This is the styles.css for my Metal Fusion Beyblade Rating website. It establishes the 
+ * fundamental styles such as fonts and alignment to ensure a consistent appearance, and includes 
+ * responsive design settings and theme-specific styles to dynamically adjust visual elements 
+ * based on user preferences.
+ */
+
+body { 
+    font-family: 'Merriweather', 'serif';
+}
+
+header, footer { 
+    text-align: center;
+    padding: 30px;
+    background-color: #f3f3f3;
+}
+
+.flex-container, #beyblades { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+body.dark { 
+    background-color: #333333;
+    color: #ffffff;
+}
+
+body.dark header, body.dark footer { 
+    background-color: #1a1a1a;
+}
+
+#beybladeGallery { 
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.beyblade {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f60f0f;
+    border-radius: 8px;
+    width: calc(33.333% - 20px); 
+    box-sizing: border-box;
+    min-height: 300px; 
+}
+
+.beyblade img {
+    width: 100%;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.beyblade h3 { 
+    margin: 5px 0;
+}
+
+.beyblade button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #4db050;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.beyblade button:hover {
+    background-color: #45a049;
+}

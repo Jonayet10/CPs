@@ -1,0 +1,11 @@
+Please fill out the following and submit with your CP 2 submission (added to help us know what to
+focus on when grading):
+
+1. What have you learned and applied in CP 2 since CP 1?
+I learned to use the Chrome inspector to remove any unneccesary CSS styles. I learned the module
+pattern, DOM manipulation, event handling, and UI elements. I applied these to CP2 since CP1.
+2. To what extent would you like feedback in CP 2 (e.g. thorough, particular areas of 
+HTML/CSS/JS/UI)?
+I would like feedback that would allow me to regain the points I have lost.
+3. Anything else you would like the grader to know?
+Nope.
