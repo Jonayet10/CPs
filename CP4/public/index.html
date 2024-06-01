@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+  Name: Jonayet Lavin
+  CS 132 Spring 2024
+  Date: May 31st, 2024
+  This is the index.html page for the Game Reviews website, which serves as its main page, which
+  allows user sto submit game reviews.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="client.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Game Reviews</h1>
+    <nav>
+      <a href="reviews.html">View Reviews</a>
+    </nav>
+  </header>
+  <main>
+    <section id="review-form-section">
+      <h2>Submit a Review</h2>
+      <form id="review-form">
+        <label for="game-title">Game Title:</label>
+        <input type="text" id="game-title" name="game-title">
+        <label for="content">Review:</label>
+        <textarea id="content" name="content"></textarea>
+        <label for="rating">Rating (/10):</label>
+        <input type="number" id="rating" name="rating" min="1" max="10" step="0.1">
+        <button type="submit">Submit</button>
+      </form>      
+    </section>
+    <p id="error-message" class="hidden"></p>
+    <section class="image-section">
+      <!--
+         Image source: Gaming Wallpapers HD
+         By: Technica
+     -->
+     <img src="gamer.png" alt="gamer">
+ </section>
+  </main>
+  <footer>
+    <p>Images are cited in the page source. &copy; 2024</p>
+  </footer>
+</body>
+</html>

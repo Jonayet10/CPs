@@ -1,0 +1,123 @@
+/*
+    Name: Jonayet Lavin
+    CS 132 Spring 2024
+    Date: May 31st, 2024
+    This is the styles.css page for my Game Reviews website. It styles the layour, color schemes,
+    and interactive elements throughout the website to create a consistent user experience.
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #c1e4f5;
+  text-align: center;
+}
+
+header {
+  padding: 16px 0;
+}
+
+header nav a, #review-form input, #review-form textarea, #review-form button {
+  border-radius: 4px;
+}
+
+header nav a {
+  color: #116e2a;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+header nav a:hover {
+  background-color: #ebd5d5;
+  border-color: #080707;
+}
+
+main {
+  padding: 32px;
+}
+
+#search-sectio, #reviews {
+  margin-bottom: 32px;
+}
+
+.review, #review-form-section {
+  background-color: #f3e5e5;
+  padding: 16px; 
+}
+
+.review {
+  border: 1px solid #e0dede;
+  margin-bottom: 16px; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: pre-wrap;
+}
+
+
+#review-form-section {
+  border: 1px solid #c9c2c2;
+}
+
+#review-form, .image-section {
+  display: flex;
+}
+
+#review-form {
+  flex-direction: column;
+}
+
+#review-form label, #review-form input, #review-form textarea {
+  margin-top: 8px; 
+}
+
+#review-form input, #review-form textarea, #review-form button {
+  padding: 8px; 
+}
+
+#review-form input, #review-form textarea {
+  border: 1px solid #f4f1f1;
+}
+
+#review-form button {
+  margin-top: 16px; 
+  background-color: #312f2f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#review-form button:hover {
+  background-color: #575353;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  bottom: 0;
+}
+
+.image-section {
+  justify-content: center;
+  padding-top: 5px;
+}
+
+#search-section {
+  margin-bottom: 11px;
+}
