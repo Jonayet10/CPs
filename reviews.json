@@ -1,0 +1,127 @@
+[
+  {
+    "gameTitle": "The Legend of Zelda: Breath of the Wild",
+    "content": "It is an amazing open-world adventure with beautiful graphics and engaging gameplay.",
+    "rating": "10"
+  },
+  {
+    "gameTitle": "Super Mario Odyssey",
+    "content": "A fun platformer that brings a fresh take on the Mario franchise.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Hades",
+    "content": "An addictive roguelike with stunning art and a compelling story.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Animal Crossing: New Horizons",
+    "content": "A relaxing and charming life-simulation game that's perfect for unwinding.",
+    "rating": "8"
+  },
+  {
+    "gameTitle": "The Witcher 3: Wild Hunt",
+    "content": "Terrific open-world design, with lots to do and have fun while doing them.",
+    "rating": "10"
+  },
+  {
+    "gameTitle": "Stardew Valley",
+    "content": "A heartwarming farming simulator with lots of replay value.",
+    "rating": "8"
+  },
+  {
+    "gameTitle": "Celeste",
+    "content": "A challenging platformer with a good narrative about overcoming personal struggles.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Red Dead Redemption 2",
+    "content": "Fantastic story, starts off slow, but if you stay past the first 3 hours, you are in for an adventure.",
+    "rating": "10"
+  },
+  {
+    "gameTitle": "God of War",
+    "content": "Fantastic soundtrack, art, combat, action adventure, and character design.",
+    "rating": "10"
+  },
+  {
+    "gameTitle": "Resident Evil 2",
+    "content": "Great jump scares, the envirnment really makes you feel like you are there.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Spider-Man",
+    "content": "Great web-slinging mechanics, you actually feel like a superhero in NYC.",
+    "rating": "8"
+  },
+  {
+    "gameTitle": "Dark Souls III",
+    "content": "A punishing but rewarding action RPG with deep lore and tight gameplay.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Persona 5",
+    "content": "A stylish and engaging JRPG with a unique blend of social simulation and dungeon crawling.",
+    "rating": "10"
+  },
+  {
+    "gameTitle": "Overwatch",
+    "content": "A fast-paced team shooter with a diverse cast of characters. Lots of fun with friends.",
+    "rating": "8"
+  },
+  {
+    "gameTitle": "Fortnite",
+    "content": "Very fun battle royale, with constant DLC updates for new characters.",
+    "rating": "7"
+  },
+  {
+    "gameTitle": "Minecraft",
+    "content": "An endlessly creative sandbox game that encourages exploration and building.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Cyberpunk 2077",
+    "content": "An ambitious RPG with a richly detailed world that takes in the future, though has lots of bugs.",
+    "rating": "7"
+  },
+  {
+    "gameTitle": "Among Us",
+    "content": "A simple yet addictive social deduction game that's perfect for parties.",
+    "rating": "8"
+  },
+  {
+    "gameTitle": "Fall Guys: Ultimate Knockout",
+    "content": "A fun and chaotic battle royale with colorful and playful obstacle courses.",
+    "rating": "7"
+  },
+  {
+    "gameTitle": "Final Fantasy VII Remake",
+    "content": "A faithful and stunning reimagining of a beloved classic RPG.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Baldur's Gate 3",
+    "content": "Terrific RPG that feels like was made with genuine love. Won game of the year.",
+    "rating": "9"
+  },
+  {
+    "gameTitle": "Yugioh Stardust Accelerator",
+    "content": "Captivating story and amazing dueling mechanics.",
+    "rating": "9.8"
+  },
+  {
+    "gameTitle": "Dead Space",
+    "content": "Thrilling and really fun jump scares. Great graphics and visuals.",
+    "rating": "9.2"
+  },
+  {
+    "gameTitle": "AC Origins",
+    "content": "Mediocre combat, but pretty good story.",
+    "rating": "7"
+  },
+  {
+    "gameTitle": "AC Oddyssey",
+    "content": "Beautiful open world, fantastic questlines, and great weapons selection.",
+    "rating": "8.8"
+  }
+]

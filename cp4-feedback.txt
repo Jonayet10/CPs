@@ -1,0 +1,13 @@
+Please fill out the following and submit with your CP 4 submission (added to help us know what to 
+focus on when grading):
+
+1. What have you learned and applied in CP 4 since previous assignments?
+I have learned about error-handling design, POST endpoints, API documentation, and file I/O,
+which I applied to CP4 since previous assignments.
+
+2. To what extent would you like feedback in CP 4 (e.g. thorough, particular areas 
+of HTML/CSS/JS/UI/asynchronous JS)?
+I would like throrough feedback on anything I did incorrectly.
+
+3. Anything else you would like the grader to know?
+Nope.
