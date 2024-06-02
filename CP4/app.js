@@ -106,7 +106,8 @@ app.post('/reviews', async (req, res) => {
     try {
         const newReview = req.body;
         if (!newReview.gameTitle || !newReview.content || !newReview.rating) {
-            return res.status(400).json({ error: 'Missing required fields: gameTitle, content, or rating' });
+            return res.status(400)
+            .json({ error: 'Missing required fields: gameTitle, content, or rating' });
         }
 
         const reviews = await readReviews();
