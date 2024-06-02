@@ -53,7 +53,7 @@ app.get('/reviews', async (req, res) => {
     try {
         const reviews = await readReviews();
         res.status(200).json(reviews);
-    } catch (error) {
+    } catch {
         res.status(500).json({ error: 'Failed to load reviews' });
     }
 });
@@ -85,7 +85,7 @@ app.get('/reviews/search/:gameTitle', async (req, res) => {
         } else {
             res.status(200).json(filteredReviews);
         }
-    } catch (error) {
+    } catch {
         res.status(500).json({ error: 'Failed to search reviews' });
     }
 });
@@ -113,7 +113,7 @@ app.post('/reviews', async (req, res) => {
         reviews.push(newReview);
         await writeReviews(reviews);
         res.status(201).json(newReview);
-    } catch (error) {
+    } catch {
         res.status(500).json({ error: 'Failed to save review' });
     }
 });
